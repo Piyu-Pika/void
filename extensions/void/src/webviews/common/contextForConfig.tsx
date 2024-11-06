@@ -145,8 +145,8 @@ const voidConfigInfo: Record<
 			'mixtral-8x7b-32768',
 			[
 				"mixtral-8x7b-32768",
+				"gemma-7b-it",
 				"llama2-70b-4096",
-				"gemma-7b-it"
 			] as const
 		),
 	},

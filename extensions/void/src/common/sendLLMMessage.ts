@@ -371,6 +371,7 @@ const sendGroqMsg: SendLLMMessageFnTypeInternal = async ({ messages, onText, onF
 		dangerouslyAllowBrowser: true
 	});
 
+	
 	try {
 		const stream = await groq.chat.completions.create({
 			messages: messages,
